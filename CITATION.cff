@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use processdiagram in published work, please cite it using the following metadata."
+title: "processdiagram: Publication-Quality Path Diagrams for PROCESS-Style Mediation Models"
+type: software
+authors:
+  - family-names: Freeman
+    given-names: "Jason D."
+version: 0.1.0
+date-released: 2026-10-07
+license: MIT
+repository-code: "https://github.com/freejas/processdiagram"
+url: "https://github.com/freejas/processdiagram"
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Freeman
+      given-names: "Jason D."
+  title: "processdiagram: Publication-Quality Path Diagrams for PROCESS-Style Mediation Models"
+  version: 0.1.0
+  year: 2026
+  url: "https://github.com/freejas/processdiagram"

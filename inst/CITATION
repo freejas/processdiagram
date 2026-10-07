@@ -1,0 +1,10 @@
+citHeader("To cite processdiagram in publications, use:")
+
+bibentry(
+  bibtype = "Manual",
+  title = "processdiagram: Publication-Quality Path Diagrams for PROCESS-Style Mediation Models",
+  author = person(given = c("Jason", "D."), family = "Freeman"),
+  year = "2026",
+  note = paste("R package version", as.character(utils::packageVersion("processdiagram"))),
+  url = "https://github.com/freejas/processdiagram"
+)

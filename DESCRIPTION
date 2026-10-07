@@ -1,0 +1,30 @@
+Package: processdiagram
+Type: Package
+Title: Publication-Quality Path Diagrams for PROCESS-Style Mediation Models
+Version: 0.1.0
+Authors@R: person(given = c("Jason", "D."), family = "Freeman",
+    role = c("aut", "cre"), email = "jason@jasondfreeman.com")
+Description: Creates publication-quality path diagrams and manuscript-ready figure
+    notes for supported PROCESS-style mediation models. It can wrap a user-supplied
+    PROCESS function, preserve an explicit bootstrap seed, validate supported path
+    structures against an independent native engine, import compatible PROCESS save=2
+    results without rerunning the analysis, and export vector or high-resolution
+    figures. Initial support includes Models 4, 6, and 81 and custom lower-triangular
+    b-matrix specifications. This package is independent software and does not
+    contain or redistribute PROCESS source code. Compatible wrapper parsing supports
+    PROCESS for R 4.1 and 5.0 for the supported mediation structures.
+URL: https://github.com/freejas/processdiagram
+BugReports: https://github.com/freejas/processdiagram/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    grDevices,
+    grid,
+    stats
+Suggests:
+    ragg,
+    svglite,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0

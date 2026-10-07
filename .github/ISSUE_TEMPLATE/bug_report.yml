@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible problem in processdiagram
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reprex
+    attributes:
+      label: Minimal reproducible example
+      description: Use public or simulated data when possible. Do not paste copyrighted PROCESS source code.
+      render: R
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Version information
+      description: Include processdiagram version, R version, OS, and PROCESS version if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Error/output
+      description: Paste the complete error message and traceback if available.
+      render: text
